@@ -32,6 +32,13 @@ You can change the install directory with the @ZSH@ environment variable, either
 
 @curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh@
 
+
+h4. For @Ubuntu@:
+
+@curl -L https://raw.githubusercontent.com/jeslev/oh-my-zsh/master/tools/install.sh | bash@
+@sudo chsh -s $(which zsh) $(whoami)@
+
+
 h3. The manual way
 
 1. Clone the repository:
